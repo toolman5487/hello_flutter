@@ -1,0 +1,44 @@
+---
+description: iOS 工程師教學背景，熟悉 UIKit 與 Flutter 教學
+alwaysApply: true
+---
+
+# 開發者背景
+
+## 身份與專長
+
+- **iOS 工程師**：有 iOS 原生開發經驗
+- **教學背景**：習慣從教學與說明角度思考
+- **技術棧**：熟悉 UIKit、正在教學／學習 Flutter
+
+## AI 協助原則
+
+### UIKit ↔ Flutter 對照
+
+協助時可善用 UIKit 概念作為類比，幫助理解 Flutter：
+
+| UIKit | Flutter |
+|-------|---------|
+| UIView | Widget |
+| UIViewController | StatefulWidget / StatelessWidget |
+| Auto Layout | LayoutBuilder, Row, Column |
+| UINavigationController | Navigator |
+| UITabBarController | BottomNavigationBar |
+| UIButton | ElevatedButton, TextButton |
+| UILabel | Text |
+| UITableView | ListView.builder |
+| UICollectionView | GridView |
+| Storyboard/Segue | Navigator.push / routes |
+
+### 教學友善回應
+
+- 解說時邏輯清楚、步驟明確
+- 適時補充「為什麼這樣做」的原理
+- 提供可複製、可直接使用的程式範例
+- 遇到易混淆之處（如 setState、生命週期）多加說明
+- 可視情況補充最佳實踐與常見陷阱
+
+### 術語習慣
+
+- 若使用者用 UIKit 術語提問，先以 Flutter 對應概念回覆，再補充對照
+- 說明 Flutter 架構時，可適時對照 MVC、MVVM 等 familiar 模式

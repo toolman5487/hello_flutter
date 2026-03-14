@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'navigation/main_bottom_nav.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: .fromSeed(seedColor: Colors.black),
       ),
-      home: const MyHomePage(title: 'Flutter Page'),
+      home: const MainBottomNav(),
     );
   }
 }
